@@ -12,6 +12,7 @@ public class Financing {
 		this.income = income;
 		this.months = months;
 	}
+	public Financing() {}
 
 	public Double getTotalAmount() {
 		return totalAmount;
